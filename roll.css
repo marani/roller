@@ -1,0 +1,62 @@
+/* 
+    Document   : roll
+    Created on : Jan 18, 2013, 3:00:10 PM
+    Author     : t_tranm
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+*{
+    -webkit-user-select: none;
+}
+#mainCanvas{
+    cursor: crosshair;
+}
+root { 
+    display: block;
+}
+#canvasContainer{
+    width: 1000px;
+    margin: auto;
+    margin-top: 0px;
+}
+#mainCanvas{
+    margin: auto;
+    
+}
+button{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    left: 50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+}
+#brush{top: 10px;}
+#eraser{top: 70px;}
+#jump{top: 130px;}
+#backward{top: 190px;}
+#forward{top: 250px;}
+
+button:hover{
+    background: #CCC;
+    color: black;
+}
+button:active{
+    background: #EEE;
+    color: black;
+}
+#buttonHolder{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 280px;
+}
+#debug{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
